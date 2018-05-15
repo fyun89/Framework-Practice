@@ -1,0 +1,1 @@
+ReactDOM.render(<App movieList={movieList} />, document.getElementById('app'));
