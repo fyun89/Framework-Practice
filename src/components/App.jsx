@@ -1,6 +1,6 @@
 class App extends React.Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
 		  movies: [
 	      {title: 'Mean Girls'},
@@ -13,11 +13,9 @@ class App extends React.Component {
 	}
 	render() {
 		return(
-
-		<div>
-			<MovieList movies={this.state.movies} />
-		</div>
-
+			<div>
+				<MovieList movies={this.state.movies} />
+			</div>
 		)
 	}
 }
