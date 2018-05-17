@@ -1,9 +1,9 @@
 var MovieList = (props) => {
 	return(
 		<div className='movie-list'>
-			{props.movies.map(
+			{props.map(
 				function(movie) {
-					return (<VideoListEntry movie={movie} />)
+					return (<MovieListEntry movie={movie} />)
 				}
 			)}
 		</div>
