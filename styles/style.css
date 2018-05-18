@@ -1,0 +1,22 @@
+body {
+  background: #f1f1f1;
+}
+
+table, th, td {
+	border:1px solid black;
+	font-size: 20px;
+	width:50%;
+	height:100px;
+	text-align: left;
+	padding: 20px;
+}
+
+td{
+	padding: 40px
+}
+
+#title {
+	font-size: 50px;
+	background: lightgrey;
+	width:50%;
+}

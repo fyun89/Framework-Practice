@@ -1,12 +1,14 @@
 var MovieList = (props) => {
 	return(
-		<div className='movie-list'>
+		<table className='movie-list'>
+			<tbody>
 			{props.movies.map(
 				function(movie) {
-					return (<div> {movie} </div>)
+					return (<tr><td>{movie}</td></tr>)
 				}
 			)}
-		</div>
+			</tbody>
+		</table>
 	);
 };
 
