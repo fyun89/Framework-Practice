@@ -2,21 +2,37 @@ body {
   background: #f1f1f1;
 }
 
+
 table, th, td {
-	border:1px solid black;
+	margin: auto;
+	border:1px solid grey;
 	font-size: 20px;
 	width:50%;
 	height:100px;
 	text-align: left;
-	padding: 20px;
+	padding: 30px
 }
 
-td{
-	padding: 40px
-}
+/*table {
+	display: inline-block;
+}*/
 
 #title {
+	margin: auto;
 	font-size: 50px;
 	background: lightgrey;
 	width:50%;
+	margin-bottom: 70px;
+}
+
+/*#table {
+	height: 50px;
+}*/
+
+#searchBox {
+	/*display: inline-block;*/
+	margin-left: 25%;
+	width: 30%;
+	border: 1px solid grey;
+	margin-bottom: 20px;
 }
