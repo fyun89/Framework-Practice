@@ -3,8 +3,8 @@ var MovieList = (props) => {
 		<table id="table" className='movie-list'>
 			<tbody>
 			{props.movies.map(
-				function(movie) {
-					return (<tr><td >{movie}</td></tr>)
+				function(movie, i) {
+					return (<tr key={movie.title}><td >{movie.title}</td></tr>)
 				}
 			)}
 			</tbody>
