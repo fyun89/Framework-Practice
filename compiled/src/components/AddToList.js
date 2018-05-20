@@ -1,0 +1,14 @@
+"use strict";
+
+var AddToList = function AddToList(props) {
+	//console.log(props.search, "this is prop")
+	return React.createElement(
+		"form",
+		null,
+		React.createElement("input", { id: "addToList", type: "text", placeholder: "Add a new movie", onChange: props.entry }),
+		React.createElement("input", { type: "submit", value: "Add", onClick: props.add })
+	);
+};
+
+window.AddToList = AddToList;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL0FkZFRvTGlzdC5qc3giXSwibmFtZXMiOlsiQWRkVG9MaXN0IiwicHJvcHMiLCJlbnRyeSIsImFkZCIsIndpbmRvdyJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFJQSxZQUFZLFNBQVpBLFNBQVksQ0FBQ0MsS0FBRCxFQUFXO0FBQzFCO0FBQ0EsUUFDQztBQUFBO0FBQUE7QUFDQyxpQ0FBTyxJQUFHLFdBQVYsRUFBc0IsTUFBSyxNQUEzQixFQUFrQyxhQUFZLGlCQUE5QyxFQUFnRSxVQUFVQSxNQUFNQyxLQUFoRixHQUREO0FBRUMsaUNBQU8sTUFBSyxRQUFaLEVBQXFCLE9BQU0sS0FBM0IsRUFBaUMsU0FBU0QsTUFBTUUsR0FBaEQ7QUFGRCxFQUREO0FBTUEsQ0FSRDs7QUFVQUMsT0FBT0osU0FBUCxHQUFtQkEsU0FBbkIiLCJmaWxlIjoiQWRkVG9MaXN0LmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIEFkZFRvTGlzdCA9IChwcm9wcykgPT4ge1xuXHQvL2NvbnNvbGUubG9nKHByb3BzLnNlYXJjaCwgXCJ0aGlzIGlzIHByb3BcIilcblx0cmV0dXJuKFxuXHRcdDxmb3JtPlxuXHRcdFx0PGlucHV0IGlkPVwiYWRkVG9MaXN0XCIgdHlwZT1cInRleHRcIiBwbGFjZWhvbGRlcj1cIkFkZCBhIG5ldyBtb3ZpZVwiIG9uQ2hhbmdlPXtwcm9wcy5lbnRyeX0gLz5cblx0XHRcdDxpbnB1dCB0eXBlPVwic3VibWl0XCIgdmFsdWU9J0FkZCcgb25DbGljaz17cHJvcHMuYWRkfSAvPlxuXHRcdDwvZm9ybT5cblx0KVxufVxuXG53aW5kb3cuQWRkVG9MaXN0ID0gQWRkVG9MaXN0OyJdfQ==

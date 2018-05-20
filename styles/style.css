@@ -7,7 +7,7 @@ table, th, td {
 	margin: auto;
 	border:1px solid grey;
 	font-size: 20px;
-	width:50%;
+	width:70%;
 	height:100px;
 	text-align: left;
 	padding: 30px
@@ -21,7 +21,7 @@ table, th, td {
 	margin: auto;
 	font-size: 50px;
 	background: lightgrey;
-	width:50%;
+	width:70%;
 	margin-bottom: 70px;
 }
 
@@ -29,10 +29,10 @@ table, th, td {
 	height: 50px;
 }*/
 
-#searchBox {
+#searchBox, #addToList {
 	/*display: inline-block;*/
-	margin-left: 25%;
-	width: 30%;
+	margin-left: 15%;
+	width: 40%;
 	border: 1px solid grey;
 	margin-bottom: 20px;
 }
