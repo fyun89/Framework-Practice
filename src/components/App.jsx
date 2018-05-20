@@ -27,6 +27,7 @@ class App extends React.Component {
 			movies.push({title: contextAbove});
 			this.setState({movies: movies});
 		}
+		this.setState({addToList: ''})
 
 
 		//console.log(duplicate);
@@ -72,7 +73,7 @@ class App extends React.Component {
 				<div id="title"> 
 					Movie List
 				</div>
-				<AddToList entry={this.handleEntry.bind(this)} add={this.handleAddToList.bind(this)} />
+				<AddToList entry={this.handleEntry.bind(this)} add={this.handleAddToList.bind(this)} state={this.state} />
 				<Search search={this.handleSearch.bind(this)} />
 				<MovieList movies={this.state.movies} />
 			</div>
