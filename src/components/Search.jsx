@@ -3,7 +3,7 @@ var Search = (props) => {
 	return(
 		<form>
 			<input id="searchBox" type="text" placeholder="Search" onChange={props.search} />
-			<input type="submit" value="Refresh" />
+			<input type="submit" value="Submit" />
 		</form>
 	)
 }

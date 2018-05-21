@@ -36,3 +36,11 @@ table, th, td {
 	border: 1px solid grey;
 	margin-bottom: 20px;
 }
+
+#watchStatus {
+	margin-left: 15%;
+}
+
+#watchToggle {
+	margin-right: 50px;
+}

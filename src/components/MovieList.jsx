@@ -4,7 +4,8 @@ var MovieList = (props) => {
 			<tbody>
 			{props.movies.map(
 				function(movie, i) {
-					return (<tr key={movie.title}><td >{movie.title}</td></tr>)
+					var index = i
+					return (<tr key={movie.title}><td ><button id="watchToggle" onClick={(i)=>{props.watch(index)}}>Watched</button>{movie.title}</td></tr>)
 				}
 			)}
 			</tbody>
